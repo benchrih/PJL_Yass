@@ -1,31 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
+    android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:baselineAligned="false"
-    android:orientation="horizontal" >
-    <RadioGroup
-        android:id="@+id/radioSyntheseSonore"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:orientation="horizontal" >
-		<RadioButton
-			android:id="@+id/FM"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="@string/FM"
-			android:onClick="onFMButtonClicked"/>
-			/>
-		<RadioButton
-			android:id="@+id/Granulaire"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="@string/Granulaire"
-			android:onClick="onGranulaireButtonClicked" />
-	</RadioGroup>
- 
- 
+    android:orientation="vertical" >
 
-    
-</LinearLayout>
+    <RadioGroup
+        android:id="@+id/radioSyntheseSonore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/FM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onFMButtonClicked"
+            android:text="@string/FM" />
+
+        <RadioButton
+            android:id="@+id/Granulaire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onGranulaireButtonClicked"
+            android:text="@string/Granulaire" />
+    </RadioGroup>
+    </LinearLayout>

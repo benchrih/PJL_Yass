@@ -5,5 +5,6 @@
     <string name="app_name">SoundGen</string>
     <string name="FM">FM</string>
     <string name="Granulaire">Granulaire</string>
+    <string name="SG">Synthèse Granulaire</string>
 
 </resources>
