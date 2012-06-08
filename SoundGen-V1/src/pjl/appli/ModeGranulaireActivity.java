@@ -16,8 +16,9 @@ public class ModeGranulaireActivity extends Activity {
 	 }
 
 	 public boolean onTouchEvent( MotionEvent event) {
-	    	Toast.makeText(this, ""+event.getX()+","+event.getY(), Toast.LENGTH_SHORT).show();
+	    	Toast.makeText(this, ""+event.getX()+","+event.getY()+"a"+System.nanoTime(), Toast.LENGTH_SHORT).show();
 			return false;
+		
 		}
 	
 }
