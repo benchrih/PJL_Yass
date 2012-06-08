@@ -1,5 +1,6 @@
 package pjl.appli;
 
+import android.R;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.MotionEvent;
@@ -10,7 +11,7 @@ public class ModeGranulaireActivity extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 	 super.onCreate(savedInstanceState);
-	 setContentView(R.layout.granulatormain);
+	 //setContentView(R.layout.granulatormain);
      //Intent thisIntent = getIntent();
 	 }
 
